@@ -1,0 +1,54 @@
+{
+  "id": "b4142ecf-ed59-4001-8967-b2d7454b923c",
+  "name": "Bifrost Temp Install Helper ori",
+  "publisher": "Origo",
+  "version": "28.0.0.0",
+  "brief": "Disposable helper: grant/revoke CE Full Access + SECURITY for CE-BIFROST install",
+  "description": "Temporary PTE for issue #38. Message type Temp.InstallHelper.Access (report|grant|revoke). Delete after CE-BIFROST Foundation install succeeds.",
+  "platform": "28.0.0.0",
+  "application": "28.0.0.0",
+  "runtime": "17.0",
+  "logo": "assets/Logo250x250.png",
+  "url": "https://www.origo.is/",
+  "EULA": "https://www.origo.is/skilmalar-og-oryggismal",
+  "privacyStatement": "https://www.origo.is/um-origo/stefnur/personuverndarstefna",
+  "help": "https://github.com/OrigoSoftwareSolutions/bc-origo-bifrost-core/issues/38",
+  "target": "Cloud",
+  "screenshots": [],
+  "dependencies": [
+    {
+      "id": "a629b897-7541-4562-bebb-c6122f15801c",
+      "name": "Origo Cloud Events Core",
+      "publisher": "Origo",
+      "version": "28.0.0.0"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50104
+    }
+  ],
+  "features": [
+    "NoImplicitWith"
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "contextSensitiveHelpUrl": "https://github.com/OrigoSoftwareSolutions/bc-origo-bifrost-core/issues/38",
+  "supportedLocales": [
+    "en-US"
+  ],
+  "internalsVisibleTo": [
+    {
+      "id": "88c51e39-d04b-487e-a649-cd9c1809fd1a",
+      "publisher": "Origo",
+      "name": "Bifrost Temp Install Helper ori - Tests"
+    }
+  ],
+  "suppressWarnings": [
+    "AS0081"
+  ]
+}
